@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Мой второй проект</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p>Имя</p>
+			<input tabindex="1" type="text" name="username" value="" />
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input tabindex="2" type="password" name="userpassword" value="" />
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input tabindex="3" type="tel" name="userphone" value="" />
+		</div>
+		<div>
+			<p>Пол</p>
+			<p><input checked tabindex="4" type="radio" name="gender" value="male" /> Мужской </p>
+			<p><input tabindex="4" type="radio" name="gender" value="female" /> Женский </p>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<input tabindex="5" type="checkbox" name="car" value="yes" /> Машина
+			</div>
+			<div>
+				<input tabindex="6" type="checkbox" name="bike" value="yes" /> Велосипед
+			</div>
+			<div>
+				<input tabindex="7" type="checkbox" name="home" value="yes" /> Дом
+			</div>
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="8" placeholder="Введите сюда информацию" name="info" ></textarea>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input type="file" />
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select tabindex="9" name="color" >
+				<option value="black">Черный</option>
+				<option value="white">Белый</option>
+				<option value="red">Красный</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button type="submit">Отправить</button>
+			<button type="reset">Очистить</button>
+		</div>
+	</form>
+</body>
+</html>
