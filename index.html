@@ -37,6 +37,42 @@
 		</div>
 		<footer>
 			<p>Содержимое подвала</p> 
+
+			<!--Теги форм и input-->
+			<form action="#" method="get">
+				<div>
+					<span>Введите логин</span> <input tabindex="1" type="text" name="username" value="" />  <!--tabindex - переключение с поиощью TAB-->
+				</div>
+				<div>
+					<span>Введите пароль</span> <input tabindex="2" type="password" name="userpass" value="" />
+				</div>
+				<div>
+					<p><input checked type="radio" name="beer" value="lager" /> Светлое пиво </p>
+					<p><input type="radio" name="beer" value="dark" /> Темное пиво </p>
+				</div>
+				<div>
+					<p><input type="checkbox" name="car" value="yes"> Наличие авто </p>
+				</div>
+				<div>
+					<p><input type="file" name="foto"></p>
+				</div>
+				<div>
+					<textarea name="text"></textarea> 							<!--Поле для многострочного текста-->
+				</div>
+				<div>
+					<select name="color">											<!--Выпадающий список-->
+						<option value="red">Красный</option>
+						<option selected value="yellow">Желтый</option>
+						<option value="blue">Голубой</option>
+					</select>
+				</div>
+				<div>
+					<button type="submit">Отправить</button>
+					<button type="reset">Очистить</button>
+				</div>
+			</form>
+
+
 			<ul>
 				<li>Содержимое тега 1</li>
 				<li>Содержимое тега 2</li>
