@@ -37,3 +37,50 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------------------------------------------------*/
 
+.arial {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   /*устанавливает семейство шрифта*/
+}
+
+.fontsize30 {
+	font-size: 30px;																/*определяет размер шрифта*/
+}
+
+.italic {
+	font-style: italic;															/*определяет начертание шрифта*/
+}
+
+.font700 {
+	font-weight: 700;																/*определяет жирность текста*/
+}
+
+.color {
+	color: #ff0000
+}
+
+.textright {
+	text-align: right;															/*Выравнивание текста по сторонам*/
+}
+
+.decoration {
+	text-decoration: line-through;											/*подчеркивание/перечеркивание текста*/
+}
+
+.transformtext {
+	text-transform: capitalize;												/*заглавные или прописные символы*/
+}
+
+.ident {
+	text-indent: 50px;															/*отступ от левого края*/
+}
+
+.lspace {
+	letter-spacing: 5px;															/*определяет интервал между символами*/
+}
+
+.wspace {
+	word-spacing: 5px;															/*определяет интервал между словами*/
+}
+
+.lheight {
+	line-height: 20px;															/*устанавливает межстрочный интервал текста*/
+}
