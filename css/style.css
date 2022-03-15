@@ -84,3 +84,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .lheight {
 	line-height: 20px;															/*устанавливает межстрочный интервал текста*/
 }
+
+.example-block {
+	padding: 10px 20px 30px 40px;												/*Отступ внутри блока*/
+	margin: 10px 20px 30px 40px;												/*Отступ снаружи блока (внешний отступ блочных тегов)*/
+	width: 500px;																	/*Ширина блока*/
+	/*max-width: 1000px;*/														/*Ограничивает максимальную ширину блока*/	
+	/*min-width: 20%;*/															/*Минимальная ширина*/
+	height: 200px;																	/*Высота блока*/
+	overflow: auto;																/*Управляет отображением содержимого блока*/
+
+	border: 2px solid #000000
+}
+.example-string {
+	display: block;
+	padding: 20px;
+	border: 2px solid #000000;
+}
