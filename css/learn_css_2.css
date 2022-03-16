@@ -36,22 +36,47 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------------------------------------------------*/
-
+body{
+	padding: 50px;
+}
 .example-block {
 	border: 5px solid #000;					/*Граница solid/dotted/dashed */
 	/*outline: 5px;*/								 /*граница, которая занимает место снаружи блока*/
 	/* border-left: none; */
 	border-radius: 30px 0 30px 0;
 	box-shadow: 5px 5px 10px 5px #000;
-	opacity: 0.5;										/*Прозрачность блока, если поставить 0, то блок не видно, но место его не занимается, можем взаимодействовать с блоком*/
+	opacity: 1;										/*Прозрачность блока, если поставить 0, то блок не видно, но место его не занимается, можем взаимодействовать с блоком*/
 	/*visibility: hidden;                       Видимость блока, если поставить ,hidden то блок не видно, но место его не занимается, НЕ можем взаимодействовать с блоком*/
 	
+	background: #18b5a4;
 
 	font-size: 30px;
 	margin: 0 0 30px 0;
 }
-.example-text {
+.example-block-2{
+	background: url('../img/test.jpg') no-repeat center /*fixed*/;	/*fixed-будет ли прокручиваться изображение*/
 
+
+	border: 5px solid #000;
+	width: 70%;
+	height: 30%;
+	margin-bottom: 50px;
+}
+.example-block-3{
+	background: url(../img/test.jpg) center/cover no-repeat;
+
+	border: 5px solid #000;
+	width: 70%;
+	height: 30%;
+	margin-bottom: 50px;
+}
+.list{
+	margin: 0 0 50px 0;
+}
+.list li{
+	margin: 0 0 15px 0;
+	background: url(../img/test.jpg) left 3px/10px 10px no-repeat;
+	padding: 0 0 0 15px;
 }
 .example-image {
 	border: 5px dashed #000;	
