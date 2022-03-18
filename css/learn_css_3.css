@@ -87,9 +87,7 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
-.list {
 
-}
 .list li {
 	font-size: 18px;
 	margin-bottom: 15px;
@@ -103,4 +101,36 @@ body {
 }
 .list li:nth-child(4) {						/*nth-ch - обращение к выбранному элементу в блоке (odd-нечетный, even - четный)*/
 	text-decoration: overline;
+}
+
+.text {
+	font-size: 24px;
+	line-height: 33px;
+	margin-bottom: 30px;
+}
+.text::first-line{							/*first-line - Задает стиль первой строки текста*/
+	color: green;
+}
+.text::first-letter{							/*first-letter - Задает стиль первого символа*/
+	color: red;
+	font-size: 50px;
+}
+
+
+
+.second-list {
+
+}
+.second-list li{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.second-list li::before {					/*before - отображение желаемого контента до содержимого элемента*/
+	content: '«';
+}
+.second-list li::after {					/*after - отображение желаемого контента после содержимого элемента*/
+	content: '»';
+}
+.second-list li:hover::before {
+	color: red;
 }
