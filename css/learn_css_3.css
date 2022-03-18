@@ -1,0 +1,106 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------------------------------------------------*/
+body {
+	padding: 30px;
+}
+.block {
+	margin: 0p 0 30px 0;
+}
+.block p{
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+
+.link {
+	color: red;
+}
+.link:hover {									/*hover начинает действовать, когда наводим мышью*/
+	text-decoration: underline;
+	color: blue;
+}
+.link:visited {								/*visited срабатывает для посещенных ссылок*/
+	color: green;
+}
+.link:active {									/*active срабатывает в момент клика*/
+	color: yellow;
+}
+
+
+
+.textinput {
+	border: 3px solid #666;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+.textinput:focus {										/*focus срабатывает при получении элементом фокуса*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.textbutton {
+	display: block;
+	width: 50%;
+	height: 50px;
+	background-color: #666;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.list {
+
+}
+.list li {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.list li:first-child {						/*fch - обращение к первому элементу в блоке*/
+	color: green;
+}
+.list li:last-child {						/*lastch - обращение к последнему элементу в блоке*/
+	color: red;
+	font-weight: 700;
+}
+.list li:nth-child(4) {						/*nth-ch - обращение к выбранному элементу в блоке (odd-нечетный, even - четный)*/
+	text-decoration: overline;
+}
