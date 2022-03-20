@@ -1,0 +1,22 @@
+//Подклчение шрифта
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+//Подключение обнуляющего стиля
+@import '_nullstyle';
+
+.text-original{
+	margin-bottom: 50px;
+	font-size: 30px;
+	line-height: 35px;
+	p{
+		margin-bottom: 30px;
+	}
+}
+.text{
+	font-family: "PT Sans";
+	font-size: 30px;
+	line-height: 35px;
+	p{
+		margin-bottom: 30px;
+	}
+}
